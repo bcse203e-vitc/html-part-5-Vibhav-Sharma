@@ -1,0 +1,32 @@
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.popular {
+    background-color: #f39c12;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
