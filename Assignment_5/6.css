@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #3498db;
+    animation: animateText 3s infinite;
+}
+
+@keyframes animateText {
+    0% {
+        color: #3498db;
+        transform: scale(1);
+    }
+    50% {
+        color: #f39c12;
+        transform: scale(1.2);
+    }
+    100% {
+        color: #3498db;
+        transform: scale(1);
+    }
+}
+
+h1:hover {
+    color: #e74c3c;
+    transition: color 0.3s ease;
+}
