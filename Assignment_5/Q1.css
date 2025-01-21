@@ -1,0 +1,31 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+header, footer {
+ background-color: #4CAF50;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+}
+/* Main Layout */
+.main-content {
+ display: flex;
+ flex-wrap: wrap; /* Allows wrapping for responsiveness */
+ gap: 10px; /* Adds space between columns */
+ padding: 10px;
+}
+.left-column, .right-column {
+ flex: 1; /* Distributes equal space */
+ padding: 15px;
+ background-color: #f2f2f2;
+ border: 1px solid #ccc;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+ .main-content {
+ flex-direction: column; /* Stacks the columns vertically */
+ }
+}
