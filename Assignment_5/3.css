@@ -1,0 +1,34 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: none;
+}
+
+.image:hover .caption {
+    display: block;
+}
